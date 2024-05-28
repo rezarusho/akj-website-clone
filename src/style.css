@@ -95,8 +95,8 @@ p {
 .header {
   margin: 0 auto;
   background-color: white;
+  width: 1280;
   height: 100px;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -159,7 +159,7 @@ p {
 }
 
 .wrapper {
-  width: 100%;
+  width: 1280;
   padding: 40px 140px;
   margin: 0 auto;
 }
@@ -307,6 +307,9 @@ li + li:before {
   padding: 100px 140px;
 } */
 
+.shoes-collection .text p {
+  color: var(--paragraph-color);
+}
 .collection-images {
   padding-top: 40px;
   display: flex;
@@ -351,8 +354,12 @@ li + li:before {
   justify-content: space-between;
 }
 
-.arrival-heading-text h2 p {
+.arrival-heading-text h2 {
   color: var(--heading-color);
+}
+
+.new-arrival .arrival-heading-text p {
+  color: var(--paragraph-color);
 }
 .new-arrival-items {
   margin-top: 40px;
@@ -372,11 +379,7 @@ li + li:before {
   
 } */
 
-.offer-heading h2,
-h4,
-h5,
-h6,
-p {
+.offer-heading .h2 .h4 .h5 .h6 .p {
   color: #ffffff;
 }
 
