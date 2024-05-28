@@ -369,16 +369,6 @@ li + li:before {
   gap: 20px;
 }
 
-/* offer section styles  */
-
-/* .offer-section {
-  background-image: url("/asseets/offer-black-bg.png");
-  height: 100vh;
-  width: 100%;
-  padding-top: 60px;
-  
-} */
-
 .offer-heading .h2 .h4 .h5 .h6 .p {
   color: #ffffff;
 }
